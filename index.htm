@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teena Verma</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/teena.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Devloper</p>
+                <h1>Hey, I'm <span>Teena</span> <br>Verma from India</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+<!---about--->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="para">
+                        I'm a <strong>Frontend Focused Web Developer</strong> building
+                        and managing the Front-end of Websites and Web Applications that
+                        leads to the success of the overall product. Check out some of
+                        my work in the <strong>Projects</strong> section.
+                    </p>
+                    <div class="tab-titles ">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">projects</p>
+                        <p class="tab-links"onclick="opentab('educations')">education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Myntra Clone</span><br> Responsive Designe</li>
+                            <li><span>Social Profile Links</span><br>Connect Socially</li>
+                        </ul>
+                    </div>
+                        <div class="tab-contents" id="educations">
+                        <ul>
+                            <li><span>2020-2021</span><br>Merry Children School-12 <sup>th</sup>State Board <br>94.80%</li>
+                            <li><span>2023-2027</span><br>Btech from IIIT Bhopal</li>
+                        </ul>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----project------>
+
+<section id="projects">
+    <div class="main-container">
+    <h2 class="heading ">
+        <span class="heading-sec__main">Projects</span>
+        <span class="heading-sec__sub">
+        Here you will find some of the personal and clients projects that I
+        created with each project containing its own case study
+        </span>
+    </h2>
+
+    <div class="projects__content">
+        <div class="projects__row">
+        <div class="projects__row-img-cont">
+            <img
+            src=""
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+            />
+        </div>
+        <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Portfolio</h3>
+            <p class="projects__row-content-desc">
+                Created a personal portfolio with interactive sections, smooth scrolling, and 10+ showcased projects.
+                Implemented responsive design using Flexbox and Grid for optimal viewing across devices.
+            </p>
+            <a class='btn' href='#' target='_blank'>Case Study</a
+            >
+        </div>
+        </div>
+        <div class="projects__row">
+            <div class="projects__row-img-cont">
+                <img
+                src=""
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+                />
+            </div>
+            <div class="projects__row-content">
+                <h3 class="projects__row-content-title">Social Profile Links</h3>
+                <p class="projects__row-content-desc">
+                    Built a responsive social media profile page, focusing on mobile compatibility.
+                    Integrated hover effects on icons, improving user interaction by 25%.
+                </p>
+                <a class='btn' href='#' target='_blank'>Case Study</a
+                >
+            </div>
+            </div>
+            <div class="projects__row">
+                <div class="projects__row-img-cont">
+                    <img
+                    src=""
+                    alt="Software Screenshot"
+                    class="projects__row-img"
+                    loading="lazy"
+                    />
+                </div>
+                <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">Myntra Clone</h3>
+                    <p class="projects__row-content-desc">
+                        Developed a responsive landing page clone of Myntra using HTML and CSS.
+                        Enhanced cross-device adaptability using Flexbox and Grid, ensuring a 30% faster load time than typical clones.
+                    </p>
+                    <a class='btn' href='#' target='_blank'>Case Study</a
+                    >
+                </div>
+                </div>
+    </div>
+    </div>
+</section>
+
+<!--contact----->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><img src="images/email.png" class="icons">Teena21072004@gmail.com</p>
+                <p><img src="images/telephone.png" class="icons">+91 8005730452</p>
+                <div class="social-icons">
+                    <a href="#"><img src="images/linkedin-logo.png" class="icons"></a>
+                    <a href="#"><img src="images/instagram.png" class="icons"></a>
+                    <a href="#"><img src="images/github-sign.png" class="icons"></a>
+                    <a href="#"><img src="images/twitter-sign.png" class="icons"></a>
+                </div>
+                <a href="images/my-cv.pdf"Dowload class="btn btn2">Dowload CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name"required>
+                    <input type="email" name="email" placeholder="Your Email"required>
+                    <textarea type="Message" row="16" placeholder="Your Message"required></textarea>
+                    <button type="button" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <img src="images/copyright.png" alt="" class="copy-icons"> by Teena. </p>
+    </div>
+</div>
+
+<script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+
+
+
+</body>
+</html>
